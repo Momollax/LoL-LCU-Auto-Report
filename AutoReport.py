@@ -5,7 +5,8 @@ connector = Connector()
 @connector.ready
 
 async def connect(connection):
-    print("Welcome to the League of Legends most racist tool 🙂 !")
+    print("Welcome to the Auto report Bot 🙂 !")
+    print("Please wait for the end of the game.")
     while True:
         users = {}
         friends = []
